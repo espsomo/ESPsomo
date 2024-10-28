@@ -68,6 +68,7 @@ graph LR
     B --> C[Output]
     B --> D[Cache]
     D --> B
+    F[Input] --> G[Process]
 ```
 
 ### API Reference
