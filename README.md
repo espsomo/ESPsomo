@@ -1,7 +1,6 @@
 # 🚀 Project Name
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/username/project)](https://github.com/username/project/releases)
-[![Build Status](https://img.shields.io/travis/username/project/master)](https://travis-ci.org/username/project)
 [![Coverage Status](https://img.shields.io/codecov/c/github/username/project/master)](https://codecov.io/gh/username/project)
 [![License](https://img.shields.io/github/license/username/project)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
