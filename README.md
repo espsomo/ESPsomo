@@ -1,5 +1,5 @@
 # ESPsomo
-IoT and Home Automation: From Hobby to Lifestyle
+IoT and Small/Middle Automation: From Hobby to Lifestyle
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/username/project)](https://github.com/username/project/releases)
 [![Coverage Status](https://img.shields.io/codecov/c/github/username/project/master)](https://codecov.io/gh/username/project)
