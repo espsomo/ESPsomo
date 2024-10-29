@@ -8,6 +8,8 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
 
 > A powerful solution for [solve this problem] that helps developers [achieve this goal]
 
+[![Foo](https://img.shields.io/badge/SUBSCRIBE%20-brightgreen.svg?style=social&logo=telegram&color=blue)](https://t.me/ESPsomo)
+
 <p align="center">
   <img src="/api/placeholder/800/400" alt="Project Banner">
 </p>
