@@ -14,6 +14,15 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
   <img src="/api/placeholder/800/400" alt="Project Banner">
 </p>
 
+# My README
+
+This is some content before the spoiler.
+
+<details>
+  <summary>Click to reveal the secret message</summary>
+  The secret message is: GitHub is awesome!
+</details>
+
 ## ✨ Features
 
 - 🎯 **Feature One** - Brief description of what it does and why it matters
