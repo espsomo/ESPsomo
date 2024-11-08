@@ -101,7 +101,17 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
 </details>
 
 
+# Example Project
 
+This is an example of a GitHub README.
+
+|     |     |
+|-----|-----|
+|     | <details><summary>Click to reveal spoiler</summary>In this menu, you can manage your settings and preferences.</details> |
+
+## Another Section
+
+Content of the README goes here.
 
 
 
