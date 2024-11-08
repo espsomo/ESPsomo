@@ -13,7 +13,7 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
 <p align="center">
   <img src="/api/placeholder/800/400" alt="Project Banner">
 </p>
-
+ 
  <h1 align="center" style="font-size:10vw">Interface Menu
   
 </h1> <!--Head for INTERFACE MENU -->
