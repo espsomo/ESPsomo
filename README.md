@@ -15,9 +15,12 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
 </p>
 
 ## My README
-
+```python
+# Spoiler: The secret function is:
+# def secret_function():
+#     return "Hidden"
 This is some content before the spoiler.
-
+```
 <details>
   <summary>Click to reveal the secret message</summary>
   The secret message is: GitHub is awesome!
