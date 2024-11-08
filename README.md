@@ -34,7 +34,9 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
   
    <details>
   <summary>MODE</summary>
+     <p>
    Here you can...
+       </p>
    </details>
    
    <details>
