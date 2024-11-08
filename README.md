@@ -54,6 +54,47 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
    Here you can...
    </details>
 
+   <details>
+  <summary>HTTP</summary>
+   Here you can...
+   </details>
+
+
+   <details>
+  <summary>MQTT</summary>
+   Here you can...
+   </details>
+
+
+   <details>
+  <summary>SENSORS</summary>
+   Here you can...
+   </details>
+
+
+   <details>
+  <summary>SCHEDULER</summary>
+   Here you can...
+   </details>
+
+
+   <details>
+  <summary>INTERFACE</summary>
+   Here you can...
+   </details>
+
+   <details>
+  <summary>ADMIN</summary>
+   Here you can...
+   </details>
+
+
+   <details>
+  <summary>EXTRA</summary>
+   Here you can...
+   </details>
+
+     
 
 </details>
 
