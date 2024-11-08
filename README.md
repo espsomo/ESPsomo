@@ -15,31 +15,17 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
 </p>
 
  <h1 align="center" style="font-size:10vw">Interface Menu
-   <h2 align="left" style="font-size:6vw">Control
-
-
-
-     
-   </h2>
- 
- 
-
-
-
-
+  
 </h1> <!--Head for INTERFACE MENU -->
 
 
 <details>
-  <summary>Click to reveal the secret message</summary>
+  <summary>Control</summary>
   The secret message is: GitHub is awesome!
   <details>
   <summary>Click to reveal the secret message</summary>
   The secret message is: GitHub is awesome!
-    <details>
-  <summary>Click to reveal the secret message</summary>
-  The secret message is: GitHub is awesome!
-</details>
+    
 </details>
 </details>
 
