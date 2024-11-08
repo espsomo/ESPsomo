@@ -21,7 +21,7 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
 
 <details>
   <summary>Control</summary>
-   &ensp;In this menu you can manage your...
+   &emsp;In this menu you can manage your...
   
 </details>
 
