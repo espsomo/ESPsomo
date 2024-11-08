@@ -19,7 +19,7 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
 </h1> <!--Head for INTERFACE MENU -->
 
 
-<details>
+<details style=" margin-left: 50px;">
   <summary>Control</summary>
   &emsp; In this menu you can manage your...
   
