@@ -36,7 +36,7 @@ This is some content before the spoiler.
 - 🎯 **Feature One** - Brief description of what it does and why it matters
 - 🔥 **Feature Two** - Another killer feature that sets your project apart
 - 🎨 **Feature Three** - Something else amazing about your project
-- 🔒 **Feature Four** - One more reason why people should use it
+
 
 ## 📋 Table of Contents
 
