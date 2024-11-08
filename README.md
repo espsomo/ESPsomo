@@ -25,20 +25,36 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
   
 </details>
 
-
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 <details>
+  
   <summary>Setup</summary>
+  
   This menu includes following sections...
+  
    <details>
-  <summary>Mode</summary>
+  <summary>MODE</summary>
    Here you can...
    </details>
+   
    <details>
   <summary>GPIO</summary>
    Here you can...
-    
+   </details>
 
-</details>
+
+   <details>
+  <summary>BUTTON</summary>
+   Here you can...
+   </details>
+
+
+   <details>
+  <summary>EICOM</summary>
+   Here you can...
+   </details>
+
+
 </details>
 
 
