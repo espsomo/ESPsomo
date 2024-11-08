@@ -15,11 +15,13 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
 </p>
 
 ## My README
+[Click here to see the spoiler](#spoiler-content)
+... (some content before)
+# Spoiler Content
+Here is a secret code:
 ```python
-# Spoiler: The secret function is:
-# def secret_function():
-#     return "Hidden"
-This is some content before the spoiler.
+def secret_code():
+    return "Spoiler Revealed"
 ```
 <details>
   <summary>Click to reveal the secret message</summary>
