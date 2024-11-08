@@ -29,6 +29,25 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
 </details>
 </details>
 
+<details>
+  <summary>Setup</summary>
+  The secret message is: GitHub is awesome!
+   &emsp;<details>
+  <summary>Click to reveal the secret message</summary>
+   &emsp;The secret message is: GitHub is awesome!
+    
+</details>
+</details>
+
+
+
+
+
+
+
+
+
+
 ## ✨ Features
 
 - 🎯 **Feature One** - Brief description of what it does and why it matters
