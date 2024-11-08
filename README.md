@@ -105,6 +105,22 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
 
 
 
+<details>
+  <summary>Setup</summary>
+
+  <table style="border: none; width: 100%;">
+    <tr>
+      <td style="vertical-align: top;">
+        <details>
+          <summary>MODE</summary>
+          <p>Here you can...</p>
+        </details>
+
+    
+  </td>
+    </tr>
+  </table>
+</details>
 
 
 
