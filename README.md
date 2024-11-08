@@ -32,11 +32,12 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
    <details>
   <summary>Mode</summary>
    Here you can...
+   </details>
    <details>
   <summary>GPIO</summary>
    Here you can...
     
-</details>
+
 </details>
 </details>
 
