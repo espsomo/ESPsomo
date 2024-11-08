@@ -14,7 +14,7 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
   <img src="/api/placeholder/800/400" alt="Project Banner">
 </p>
 
-##  &emsp &emsp &emspMy README
+##  &emsp; &emsp; &emsp;My README
 
 <details>
   <summary>Click to reveal the secret message</summary>
