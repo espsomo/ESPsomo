@@ -102,45 +102,6 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
 
 
 
-
-<details>
-  <summary>Setup</summary>
-
-  <table style="border: 1px solid transparent; width: 100%;">
-    <tr>
-      <td style="vertical-align: top; border: 1px solid transparent;">
-        <details>
-          <summary>MODE</summary>
-          <p>Here you can...</p>
-        </details>
-
-  <details>
-  <summary>GPIO</summary>
-  <p>Here you can...</p>
-  </details>
-
-   <!-- Other left-aligned spoilers -->
-   </td>
-
-    <!-- Right-aligned section -->
-  <td style="vertical-align: top; text-align: right; border: 1px solid transparent;">
-  <details>
-  <summary>MODE</summary>
-   <p>Here you can...</p>
-   </details>
-
-  <details>
-   <summary>EICOM</summary>
-   <p>Here you can...</p>
-   </details>
-        
-    <!-- Other right-aligned spoilers -->
-  </td>
-    </tr>
-  </table>
-</details>
-
-
 # Example Project
 
 This is an example of a GitHub README.
