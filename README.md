@@ -32,7 +32,7 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
   
   This menu includes following sections...
   
-   <details>
+   <details style="float: right; margin-left: 20px;">
   <summary>MODE</summary>
      <p>
    Here you can...
