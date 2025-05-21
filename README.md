@@ -6,278 +6,206 @@ Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
 [![License](https://img.shields.io/github/license/espsomo/project)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> A powerful solution for [solve this problem] that helps developers [achieve this goal]
-
-[![Foo](https://img.shields.io/badge/SUBSCRIBE%20-brightgreen.svg?style=social&logo=telegram&color=blue)](https://t.me/ESPsomo)
-
-<p align="center">
-  <img src="/api/placeholder/800/400" alt="Project Banner">
-</p>
- 
- <h1 align="center" style="font-size:10vw">Interface Menu
-  
-</h1> <!--Head for INTERFACE MENU -->
 
 
-<details>
-  <summary>Control</summary>
-   &emsp;In this menu you can manage your...
-  
-</details>
+Here is a professionally formatted README.md file for your ESPsomo GitHub repository:
 
-<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<details>
-  
-  <summary>Setup</summary>
-  
-  This menu includes following sections...
-  
-   <details style="float: right; margin-left: 20px;">
-  <summary>MODE</summary>
-     <p>
-   Here you can...
-       </p>
-   </details>
-   
-   <details>
-  <summary>GPIO</summary>
-   Here you can...
-   </details>
+# ESPsomo
 
+Universal firmware for small to medium mesh networks based on ESP microcontrollers leveraging ESP-NOW, WiFi, and BLE protocols.
 
-   <details>
-  <summary>BUTTON</summary>
-   Here you can...
-   </details>
-
-
-   <details>
-  <summary>EICOM</summary>
-   Here you can...
-   </details>
-
-   <details>
-  <summary>HTTP</summary>
-   Here you can...
-   </details>
-
-
-   <details>
-  <summary>MQTT</summary>
-   Here you can...
-   </details>
-
-
-   <details>
-  <summary>SENSORS</summary>
-   Here you can...
-   </details>
-
-
-   <details>
-  <summary>SCHEDULER</summary>
-   Here you can...
-   </details>
-
-
-   <details>
-  <summary>INTERFACE</summary>
-   Here you can...
-   </details>
-
-   <details>
-  <summary>ADMIN</summary>
-   Here you can...
-   </details>
-
-
-   <details>
-  <summary>EXTRA</summary>
-   Here you can...
-   </details>
-
-     
-
-</details>
-
-
-
-# Example Project
-
-This is an example of a GitHub README.
-
-|     |     |
-|-----|-----|
-|     | <details><summary>Click to reveal spoiler</summary>In this menu, you can manage your settings and preferences.</details> |
-
-## Another Section
-
-Content of the README goes here.
-
-
-
-
-
-
-## ✨ Features
-
-- 🎯 **Feature One** - Brief description of what it does and why it matters
-- 🔥 **Feature Two** - Another killer feature that sets your project apart
-- 🎨 **Feature Three** - Something else amazing about your project
-
+![ESP32](https://img.shields.io/badge/ESP32-Supported-blue)
+![ESP8266](https://img.shields.io/badge/ESP8266-Supported-blue)
+![Arduino](https://img.shields.io/badge/Arduino-2.0.10-green)
+![IoT](https://img.shields.io/badge/IoT-Automation-orange)
+![Mesh](https://img.shields.io/badge/Mesh-Network-purple)
 
 ## 📋 Table of Contents
 
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Documentation](#documentation)
-- [Examples](#examples)
-- [Architecture](#architecture)
-- [Contributing](#contributing)
-- [License](#license)
+* [About](#about)
+* [Features](#features)
+* [Hardware Requirements](#hardware-requirements)
+* [Software Requirements](#software-requirements)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Network Architecture](#network-architecture)
+* [Supported Sensors](#supported-sensors)
+* [Contributing](#contributing)
+* [License](#license)
 
-## 🚀 Installation
+## 🌟 About
 
-```bash
-# Using npm
-npm install project-name
+ESPsomo is a universal firmware solution designed for creating reliable mesh networks using ESP microcontrollers. Perfect for home automation, environmental monitoring, and industrial IoT applications, ESPsomo makes it easy to deploy interconnected sensor and actuator networks without complex infrastructure.
 
-# Using yarn
-yarn add project-name
+## ✨ Features
 
-# Using pnpm
-pnpm add project-name
+* Universal firmware compatible with both ESP32 (S2, S3, C3) and ESP8266
+* Multi-protocol mesh networking using ESP-NOW, WiFi, and BLE
+* Self-healing mesh topology for reliable communications
+* Low power consumption with deep sleep support
+* Over-the-air (OTA) firmware updates
+* Simple configuration via web interface or JSON files
+* Support for various sensors (motion, presence, illumination, etc.)
+* Data logging and visualization capabilities
+* Integration with popular home automation platforms
+
+## 🔧 Hardware Requirements
+
+### Supported Microcontrollers
+
+* ESP32 (Standard)
+* ESP32-S2
+* ESP32-S3
+* ESP32-C3
+* ESP8266
+
+### Recommended Specifications
+
+* 2MB+ Flash Memory
+* Stable 3.3V power supply
+* For battery-powered nodes: Deep sleep support
+
+## 💾 Software Requirements
+
+* Arduino IDE 2.0+ or PlatformIO
+* ESP Arduino Core 2.0.10
+* Required Libraries:
+  * ESP-NOW
+  * WiFi
+  * BLE (for ESP32)
+  * ArduinoJSON
+  * ESPsomo Core Library
+
+## ⚙️ Installation
+
+### Option 1: Using Arduino IDE
+
+```
+1. Install the Arduino IDE 2.0.10 or newer
+2. Install the ESP Arduino Core from the Boards Manager
+   - For ESP32: https://github.com/espressif/arduino-esp32
+   - For ESP8266: https://github.com/esp8266/Arduino
+3. Clone this repository:
+   git clone https://github.com/yourusername/ESPsomo.git
+4. Open the ESPsomo.ino file in Arduino IDE
+5. Select your board from Tools > Board menu
+6. Configure settings in config.h
+7. Compile and upload to your device
 ```
 
-## 🏃 Quick Start
+### Option 2: Using PlatformIO
 
-```javascript
-import { ProjectName } from 'project-name';
-
-// Basic usage
-const instance = new ProjectName({
-  option1: 'value1',
-  option2: 'value2'
-});
-
-// Do something amazing
-instance.doSomething();
+```
+1. Install PlatformIO Core or PlatformIO IDE extension for VSCode
+2. Clone this repository:
+   git clone https://github.com/yourusername/ESPsomo.git
+3. Navigate to the project directory
+4. Modify platformio.ini as needed for your board
+5. Configure settings in config.h
+6. Build and upload:
+   platformio run --target upload
 ```
 
-## 📖 Documentation
+## 🚀 Usage
 
-### Core Concepts
+### Basic Configuration
 
-Here's a simple flowchart of how the project works:
+The basic configuration is done via the `config.h` file or through the web interface after initial setup.
 
-```mermaid
-graph LR
-    A[Input] --> B[Process]
-    B --> C[Output]
-    B --> D[Cache]
-    D --> B
-    F[Module] --> G[App]
+```
+// Sample configuration
+#define NODE_NAME "kitchen_sensor"
+#define NODE_ROLE NODE_ROLE_SENSOR  // Options: NODE_ROLE_GATEWAY, NODE_ROLE_ROUTER, NODE_ROLE_SENSOR
+#define MESH_NETWORK_NAME "home_network"
+#define MESH_NETWORK_PASSWORD "securepassword123"
+#define DEEP_SLEEP_ENABLED true
+#define DEEP_SLEEP_INTERVAL 300  // seconds
 ```
 
-### API Reference
+### Network Setup
 
-#### `method1(param1, param2)`
+1. Configure at least one node as a Gateway (connected to WiFi)
+2. Configure additional nodes as Routers to extend network range
+3. Configure end devices as Sensors (can operate in deep sleep mode)
+4. Power on the Gateway first, followed by Routers, then Sensors
+5. The network will auto-configure and establish optimal routing paths
 
-Description of what this method does.
+### Monitoring and Management
 
-```javascript
-// Example usage
-const result = instance.method1('foo', 'bar');
-```
+Access the web interface through the Gateway's IP address to:
 
-| Parameter | Type     | Description                |
-|-----------|----------|----------------------------|
-| `param1`  | `string` | Description of parameter 1 |
-| `param2`  | `string` | Description of parameter 2 |
+* View network topology
+* Monitor sensor data
+* Configure node parameters
+* Update firmware
+* Export data
 
-## 🎯 Examples
+## 🏗️ Network Architecture
 
-### Basic Example
+ESPsomo uses a hybrid mesh architecture with three main node types:
 
-```javascript
-// Show a simple example
-const basic = new ProjectName();
-basic.simpleOperation();
-```
+| Node Type | Function | Power Mode | Typical Hardware |
+| --- | --- | --- | --- |
+| Gateway | Connects mesh to external networks (WiFi/Ethernet) | Always on | ESP32 with stable power source |
+| Router | Extends network range, relays messages | Always on | ESP32/ESP8266 with stable power |
+| Sensor | Collects data, performs actions | Deep sleep capable | Any ESP device, often battery powered |
 
-### Advanced Example
+Communication within the network uses:
 
-```javascript
-// Show a more complex example
-const advanced = new ProjectName({
-  feature: 'advanced',
-  mode: 'pro'
-});
-advanced.complexOperation();
-```
+* **ESP-NOW**: For efficient device-to-device communication with low latency
+* **WiFi**: For gateway connections and high-bandwidth data transfer
+* **BLE**: For energy-efficient connections and smartphone configuration
 
-## 🏗 Architecture
+## 📊 Supported Sensors
 
-<p align="center">
-  <img src="/api/placeholder/800/600" alt="Architecture Diagram">
-</p>
+ESPsomo supports a wide range of sensors including:
 
-The project follows a modular architecture with these key components:
+### Motion Sensors
+* PIR motion sensors
+* Microwave sensors
+* Ultrasonic distance sensors
 
-- **Core Module**: Handles central logic
-- **API Layer**: Manages external communications
-- **Data Layer**: Handles data persistence
-- **UI Components**: User interface elements
+### Presence Detection
+* mmWave radar sensors
+* IR beam break sensors
+* Capacitive presence detection
 
-## 🤝 Contributing
+### Environmental Sensors
+* Temperature & humidity (DHT11/22, BME280)
+* Pressure sensors (BMP180/280)
+* Air quality (MQ series, CCS811)
 
-We love your input! Check out our [Contributing Guidelines](CONTRIBUTING.md) to get started.
+### Light Sensors
+* Illumination (LDR, BH1750)
+* UV index sensors
+* Color sensors (TCS34725)
 
-### Development Setup
+### Utility Sensors
+* Power consumption monitors
+* Water flow sensors
+* Door/window contact sensors
 
-```bash
-# Clone the repository
-git clone https://github.com/username/project.git
+### Custom Sensors
+* Easy integration via I2C
+* SPI interface support
+* Analog sensor input
 
-# Install dependencies
-npm install
+## 👥 Contributing
 
-# Run tests
-npm test
-```
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### Code Style
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add some amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
 
-We use ESLint and Prettier to maintain code quality. Please ensure your code follows our style guide:
+## 📝 License
 
-```bash
-# Check code style
-npm run lint
-
-# Fix code style issues
-npm run lint:fix
-```
-
-## 📈 Performance
-
-Here's how our project performs in key metrics:
-
-| Metric           | Score  | Industry Average |
-|------------------|--------|------------------|
-| Load Time        | 1.2s   | 2.4s            |
-| Memory Usage     | 45MB   | 78MB            |
-| API Response     | 100ms  | 250ms           |
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Thanks to all contributors who have helped this project grow
-- Special thanks to [Library/Tool 1] for inspiration
-- Shoutout to our amazing community
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-<p align="center">Made with ❤️ by <a href="https://github.com/username">Your Name</a></p>
+© 2025 ESPsomo Project
+
+Made with ❤️ for the ESP IoT community
