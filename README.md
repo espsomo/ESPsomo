@@ -1,3 +1,7 @@
+
+
+You're absolutely right. The Table of Contents links weren't formatted correctly for GitHub. Here's the fixed README.md with properly working anchor links:
+
 # ESPsomo
 
 Universal firmware for small to medium mesh networks based on ESP microcontrollers leveraging ESP-NOW, WiFi, and BLE protocols.
@@ -10,16 +14,16 @@ Universal firmware for small to medium mesh networks based on ESP microcontrolle
 
 ## 📋 Table of Contents
 
-* [About](#about)
-* [Features](#features)
-* [Hardware Requirements](#hardware-requirements)
-* [Software Requirements](#software-requirements)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Network Architecture](#network-architecture)
-* [Supported Sensors](#supported-sensors)
-* [Contributing](#contributing)
-* [License](#license)
+* [About](#-about)
+* [Features](#-features)
+* [Hardware Requirements](#-hardware-requirements)
+* [Software Requirements](#-software-requirements)
+* [Installation](#️-installation)
+* [Usage](#-usage)
+* [Network Architecture](#️-network-architecture)
+* [Supported Sensors](#-supported-sensors)
+* [Contributing](#-contributing)
+* [License](#-license)
 
 ## 🌟 About
 
