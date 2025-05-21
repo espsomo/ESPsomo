@@ -1,16 +1,4 @@
 # ESPsomo
-Small to Medium Automation Solutions: From Hobby to Lifestyle with IoT
-
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/espsomo/project)](https://github.com/espsomo/project/releases)
-[![Coverage Status](https://img.shields.io/codecov/c/github/espsomo/project/master)](https://codecov.io/gh/espsomo/project)
-[![License](https://img.shields.io/github/license/espsomo/project)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
-
-
-Here is a professionally formatted README.md file for your ESPsomo GitHub repository:
-
-# ESPsomo
 
 Universal firmware for small to medium mesh networks based on ESP microcontrollers leveraging ESP-NOW, WiFi, and BLE protocols.
 
